@@ -1,5 +1,5 @@
 (define (problem problem3)
-	
+  
   (:domain time-environment)
 
   (:objects
@@ -24,20 +24,21 @@
   ) 
 
   (:goal(and
-  	(or (person_needs tuan f1) (person_needs tuan f2) (person_needs tuan f3) )
-  	(or (person_needs tuan m1) (person_needs tuan m2) (person_needs tuan m3) )
+    (or (person_needs tuan f1) (person_needs tuan f2) (person_needs tuan f3) )
+    (or (person_needs tuan m1) (person_needs tuan m2) (person_needs tuan m3) )
 
-  	(or (person_needs isa f1) (person_needs isa f2) (person_needs isa f3) )
+    (or (person_needs isa f1) (person_needs isa f2) (person_needs isa f3) )
 
-  	(or (person_needs bella m1) (person_needs bella m2) (person_needs bella m3) )
+    (or (person_needs bella m1) (person_needs bella m2) (person_needs bella m3) )
 
-  	(not (or (person_needs sara f1) (person_needs sara f2) (person_needs sara f3) ))
-  	(not (or (person_needs sara m1) (person_needs sara m2) (person_needs sara m3) ))
+    (not (or (person_needs sara f1) (person_needs sara f2) (person_needs sara f3) ))
+    (not (or (person_needs sara m1) (person_needs sara m2) (person_needs sara m3) ))
 
-  	; (or (person_needs chi f1) (person_needs chi f2) (person_needs chi f3) (person_needs chi f4) (person_needs chi f5))
+    ; (or (person_needs chi f1) (person_needs chi f2) (person_needs chi f3) (person_needs chi f4) (person_needs chi f5))
 
   )
 
   )
 (:metric minimize (total-time))
+
 )
