@@ -13,8 +13,8 @@
   )
 
   (:init
-    (at f1 d0) (at f2 d0) (at f3 d0) (at f4 d0) (at f5 d0) (at m1 d0) (at m2 d0) (at m3 d0) (at m4 d0) (at m5 d0)
-    (person_at tuan loc5) (person_at isa loc6) (person_at kalem loc1) (person_at bella loc2) (person_at chi loc10) (person_at sara loc8)
+    (at f1 d0) (at f2 d0) (at f3 d0) (at m1 d0) (at m2 d0) (at m3 d0)
+    (person_at tuan loc5) (person_at isa loc6) (person_at kalem loc1) (person_at bella loc2)(person_at sara loc8)
     (agent_at agent d0)
     (carrier_at cr d0)
     (has_stock cr s0)
