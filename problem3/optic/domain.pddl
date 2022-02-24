@@ -28,7 +28,7 @@
     (type_needs ?p - person ?t - typecrate)
     (type_not_needs ?p - person ?t - typecrate)
     (crate_type ?c - crate ?t - typecrate)
-    (free ?cr - carrier)
+    (empty ?cr - carrier)
   )
 
 
@@ -56,7 +56,7 @@
       :condition (and
         (at start (agent_at ?r ?initial))
         (at start (carrier_at ?cr ?initial))
-        (over all (free ?cr ))
+        (over all (empty ?cr ))
       )
       :effect (and
         (at start (not (agent_at ?r ?initial)))
@@ -77,15 +77,15 @@
         (at start (carrier_at ?cr ?d))
         (at start (inc ?s ?ss))
         (at start (has_stock ?cr ?s))
-        (at start (free ?cr))
+        (at start (empty ?cr))
       )
       :effect (and
-        (at start (not (free ?cr)))
+        (at start (not (empty ?cr)))
         (at end (not (at ?c ?d)))
         (at end (not (has_stock ?cr ?s)))
         (at end (attached ?cr ?c))
         (at end (has_stock ?cr ?ss))
-        (at end (free ?cr))
+        (at end (empty ?cr))
       )
     )
 
@@ -100,20 +100,20 @@
         (at start (carrier_at ?cr ?l))
         (at start (has_stock ?cr ?s))
         (at start (dec ?s ?ss))
-        (at start (free ?cr))
+        (at start (empty ?cr))
         (at start (type_needs ?p ?t))
         (at start (crate_type ?c ?t))
 
       )
       :effect (and
-        (at start (not (free ?cr)))
+        (at start (not (empty ?cr)))
         (at end (person_needs ?p ?c))
         (at end (not (attached ?cr ?c)))
         (at end (not (has_stock ?cr ?s)))
         (at end (has_stock ?cr ?ss))
         (at end (type_not_needs ?p ?t))
         (at end (not (type_needs ?p ?t)))
-        (at end (free ?cr))
+        (at end (empty ?cr))
       )
     )
 

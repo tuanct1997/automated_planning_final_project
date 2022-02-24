@@ -6,7 +6,7 @@
     loc1 loc2 loc3 loc4 loc5 loc6 loc7 loc8 loc9 loc10 loc11 - pos
     f1 f2 f3 - food
     m1 m2 m3 - medicine
-    tuan kalem isa bella sara - person
+    tuan isa bella sara - person
     s1 s2 s3 s4 - stock
     agent1 - robot
     cr1 - carrier

@@ -19,7 +19,7 @@
     (carrier_at cr d0)
     (has_stock cr s0)
     (inc s0 s1) (inc s1 s2) (inc s2 s3) (inc s3 s4) (dec s4 s3) (dec s3 s2) (dec s2 s1) (dec s1 s0)
-    (free cr)
+    (empty cr)
     (type_needs tuan food) (type_needs tuan medicine)
     (type_needs isa food) (type_not_needs isa medicine)
     (type_needs bella medicine) (type_not_needs bella food)
