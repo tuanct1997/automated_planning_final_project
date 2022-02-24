@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple example that shows the basic operation of PlanSys2. A simple PDDL domain has been specified, and we will use the PlanSys2 Terminal to insert commands. Actions simulate their execution.
+This project is based on example which is provided by professor **Marco Roveri**.
 
 ## How to run
 
@@ -94,7 +94,7 @@ set predicate (crate_type f4 medicine)
 set predicate (crate_type f5 medicine)
 set predicate (crate_type f6 medicine)
 
-get problem predicates 
+get problem predicates
 
 set goal (and(type_not_needs tuan food) (type_not_needs tuan medicine) (type_not_needs isa food) (type_not_needs isa medicine) (type_not_needs bella food) (type_not_needs bella medicine) (type_not_needs sara food) (type_not_needs sara medicine))
 
