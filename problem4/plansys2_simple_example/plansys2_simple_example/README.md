@@ -1,4 +1,4 @@
-# PlanSys2 Simple Example
+# PlanSys2 Insutrction
 
 ## Description
 
