@@ -3,7 +3,7 @@
 I would like to express my gratitude to all those who gave me possibility to complete this project in specific as well as academic supporting in general that I received during the time of our studying at the Trento University. I wish to express my sincere thanks to *Professor Marco Roveri* for providing us with all the necessary facilities for the research.
 
 ## Introduction
-This repository is dedicated to the final project of the courses *Automated Planning: Theory and Practice* from *professor Marco Roveri* from *Trento University*. This repository contains 4 different problems which is divided into each coresponding folder. Inside each folder you can find 2 *pddl files* (domain and problem) , a *txt file* which has the command line to run and a *txt file* which show the output after executed. For the *problem 4* it's about the *plansys2* problem which contain the *.cpp, .py and pddl* to demonstrate the plan on Plansys2. 
+This repository is dedicated to the final project of the courses *Automated Planning: Theory and Practice* from *professor Marco Roveri* from *Trento University*. This repository contains 4 different problems which is divided into each coresponding folder. Inside each folder you can find 2 *pddl files* (domain and problem) , a *txt file* which has the command line to run and a *txt file* which show the output after executed. For the *problem 4* it's about the *plansys2* problem which contain the *.cpp, .py and pddl* to demonstrate the plan on Plansys2. Fore more detail , please refer to the report pdf file inside this repo.
 
 ## Requirements
 This projec is represent the *AI Planning field - a sub field of Artificial Intelligence*. The requirements and the install guide link (if necessary) is show below: 
